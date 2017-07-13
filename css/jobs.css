@@ -1,0 +1,116 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+h1 {
+  text-align: center;
+}
+
+#job1-letterdiv {
+  background-color: #BBCDB3;
+}
+
+#job1-letterdiv:hover {
+  background-color: #A1B09A;
+
+}
+
+#job2-letterdiv {
+  background-color: #DAE7EF;
+}
+
+#job2-letterdiv:hover {
+  background-color: #b8cad5;
+
+}
+
+#job3-letterdiv {
+  background-color: #0159A0;
+}
+
+#job3-letterdiv:hover {
+  background-color: #004882;
+}
+
+#job4-letterdiv {
+  background-color: #B95041;
+}
+
+#job4-letterdiv:hover {
+  background-color: #993629;
+}
+
+#job5-letterdiv {
+  background-color: #B95041;
+}
+
+#job5-letterdiv:hover {
+  background-color: #993629;
+}
+
+.listing-wrapper {
+  border: 1px solid lightgrey;
+  width: 90%;
+  margin-bottom: 2em;
+}
+
+.listing-wrapper h2 {
+  text-align: center;
+}
+
+.job {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-top: 1px solid lightgrey;
+}
+
+.job:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+.job-letterdiv {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  width: 7%;
+  margin-left: 2em;
+  border-radius: 15%;
+  border: .5px solid rgb(224, 224, 224);
+  cursor: pointer;
+}
+
+.job-details {
+  width: 20%;
+  padding-left: 4em;
+}
+
+.job-details p {
+  color: grey;
+}
+
+.job-details p span {
+  color: black;
+  margin-left: 0 auto;
+}
+
+.job-description {
+  display: flex;
+  width: 60%;
+  margin-left: 0 auto;
+  text-align: left;
+  align-items: center;
+}
+
+.job-description p {
+  text-align: justify;
+}
+
+.listing-header {
+  background-color: #2478bb;;
+  margin: 0;
+  padding: .1em 0;
+}

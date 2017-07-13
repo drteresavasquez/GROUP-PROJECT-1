@@ -1,0 +1,89 @@
+.pants {
+	background-color:#BBCDB3;
+	display: flex;
+	width: 90%;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  	perspective: 700;
+
+}
+
+.box{
+	color: #585858;
+	font-family: "Open Sans";
+/*	justify-content: center;
+	align-items: center;*/
+	display: flex;
+	border-radius: 12px;
+	height: 230px;
+	width: 35%;
+	border: 5px solid #333;
+	margin-bottom: 60px;
+	flex-direction: column;
+  	transition: all 0.8s ease;
+  	transform-style: preserve-3d;
+  	cursor: pointer;
+  
+
+}
+
+.box:hover {
+  transform: rotateY(180deg);
+}
+
+.inner-box {
+  border-radius: 6px;
+  height: 100%;
+  width: 100%;
+  margin-top: 0;
+  position:absolute;
+  transition: opacity 0.8s ease;
+}
+
+.box .boxback {
+   opacity:0;
+}
+
+.box:hover .boxback {
+   opacity:1;
+}
+
+.box .boxfront {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+   	opacity:1;
+}
+
+.boxfront {
+	background-color: white;
+}
+
+
+.box:hover .boxfront {
+   opacity:0;
+}
+
+h1 {
+	color: #585858;
+	font-family: "Open Sans";
+	text-align: center;
+}
+
+body {
+	background-color:#BBCDB3;
+}
+
+p {
+	font-size: xx-large;
+}
+
+p.index-smaller{
+	font-size: 1em;
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>History</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/history-styles.css">
+  </head>
+  <body>
+  	<header id="top">
+	  	<nav>
+				<ul class="main-nav">
+					<li class="none"><a href="index.html"><img src="images/logo.png" alt="" width="200px"></a></li>
+					<li><a href="index.html">Home</a></li>
+					<li class="here"><a href="history.html">History</a></li>
+					<li><a href="jobs.html">Jobs</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+		</nav>
+	<div class="heroImage"><img src="images/page-header-img.png" alt="Header Image"></div>
+	<div class="title"><h1>History</h1>
+	<p>Make all of your adventures come true!</p>
+	</div>
+	</header>
+	<main>
+		<section class="history-head">
+			<h2>Our Mission</h2>
+			<p class="white">Outdoor Adventures, one of the world’s largest travel sites, enables travelers to unleash the full potential of every trip. With millions of reviews and opinions covering the world’s largest selection of travel listings worldwide -- over 7 million accommodations, airlines, attractions, and restaurants -- Outdoor Adventures provides the ultimate resources for travelers.</p>
+
+			<h2>Our Strategy</h2>
+			<div>
+				<ul class="white"><br>
+					<li id="l1" >We Believe in Being Different: <span class="span" onclick="expand();">Click to learn more</span></li>
+
+					<li id="l2" >We Lead Humbly: <span class="span" onclick="expand2();">Click to learn more</span></li>
+
+					<li id="l3" >We are Transparent: <span class="span" onclick="expand3();">Click to learn more.</span></li>
+
+					<li id="l4" >We Organize for Speed: <span class="span" onclick="expand4();">Click to learn more</span></li>
+
+					<li id="l5" >We Believe in the Scientific Method: <span class="span" onclick="expand5();">Click to learn more</span></li>
+
+					<li id="l6" >We Act as One Team: <span class="span" onclick="expand6();">Click to learn more</span></li><br>
+				</ul>
+				</div>
+		</section>
+
+		<script>
+			function expand() {
+				document.getElementById('l1').innerHTML = "We Believe in Being Different: We seek new ideas, different ways of thinking, diverse backgrounds and approaches, because averages can lie and sameness is dangerous. Because of this belief, our norms aren’t rules or universal at all corners of our company. But they are important to our identity and how we work together."	
+			}
+			function shrink() {
+				document.getElementById("l1").innerHTML = "We Believe in Being Different: <span class='span' onclick='expand();''>Click to learn more</span>";
+					
+			}
+			function expand2() {
+				document.getElementById('l2').innerHTML = "We Lead Humbly: Our leaders serve their teams. None of us has all of the answers, but we are curious and we are always looking to learn. Though our leaders take their responsibilities to our business and their teams incredibly seriously, they never take themselves too seriously."
+			}
+			function shrink2() {
+				document.getElementById("l2").innerHTML = "We Lead Humbly: <span class='span' onclick='expand2();''>Click to learn more</span>"
+					
+			}
+			function expand3() {
+				document.getElementById('l3').innerHTML = "We are Transparent: We communicate openly and honestly, at all levels, upwards, sideways and downwards. We surface difficult issues quickly, we act, we learn."
+			}
+			function shrink3() {
+				document.getElementById("l3").innerHTML = "We are Transparent: <span class='span' onclick='expand3();'>Click to learn more</span>";
+					
+			}
+			function expand4() {
+				document.getElementById('l4').innerHTML = "We Organize for Speed: We seek to gather data as fast as possible, and move. Speed allows us to make mistakes and constantly improve."	
+			}
+			function shrink4() {
+				document.getElementById("l4").innerHTML = "We Organize for Speed: <span class='span' onclick='expand4();'>Click to learn more</span>";
+					
+			}
+			function expand5() {
+				document.getElementById('l5').innerHTML = "We Believe in the Scientific Method: Everyone’s ideas are equal in the face of hard data. We use data to guide but not define our actions."	
+			}
+			function shrink5() {
+				document.getElementById("l5").innerHTML = "We Believe in the Scientific Method: <span class='span' onclick='expand5();'>Click to learn more</span>";
+					
+			}
+			function expand6() {
+				document.getElementById('l6').innerHTML = "We Act as One Team: We look to optimize for the greater good, not just our own, or even our own teams’ interests. We are actively interested in the success of others."	
+			}
+			function shrink6() {
+				document.getElementById("l6").innerHTML = "We Act as One Team: <span class='span' onclick='expand6();'>Click to learn more</span>";
+					
+			}
+		</script>
+		
+	</main>
+  </body>
+<footer>© Copyright 2017 - . The Adventurers. All Rights Reserved.<br><img src="images/logo.png" alt="logo"></footer>
+</html>
+

@@ -1,0 +1,147 @@
+
+.contact-main{
+	width: 90%;
+	margin: 0 auto;
+	height: 1100px;
+
+}
+
+.bold{
+	font-weight: bold;
+	margin-bottom: -15px;
+	font-size: 1.5em;
+}
+
+.contact-info{
+	height: 1100px;
+	padding-top: 30px;
+
+}
+
+
+/* -- Form Styling -- */
+
+.adventureform{
+    max-width: 60%;
+    height: 1100px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    float: left;
+    	margin-right: 55px;
+}
+
+.adventureform fieldset{
+    border: none;
+}
+
+.adventureform legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.adventureform label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.adventureform input[type="text"],
+.adventureform input[type="date"],
+.adventureform input[type="datetime"],
+.adventureform input[type="email"],
+.adventureform textarea,
+.adventureform select {
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #DAE7EF;
+    color:#8a97a0;
+    margin-bottom: 5px;
+    
+}
+.adventureform input[type="text"]:focus,
+.adventureform input[type="date"]:focus,
+.adventureform input[type="datetime"]:focus,
+.adventureform input[type="email"]:focus,
+.adventureform input[type="number"]:focus,
+.adventureform input[type="search"]:focus,
+.adventureform input[type="time"]:focus,
+.adventureform input[type="url"]:focus,
+.adventureform textarea:focus,
+.adventureform select:focus{
+    background: #d2d9dd;
+}
+.adventureform select{
+    height:35px;
+}
+
+.adventureform input[type="submit"],
+.adventureform input[type="reset"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.adventureform input[type="submit"]{
+	background: #0159A0;
+	border: 1px solid #17ADD9;
+
+}
+
+.adventureform input[type="reset"]{
+	background: #B95041;
+	border: 1px solid #17ADD9;
+}
+
+.adventureform input[type="submit"]:hover,
+.adventureform input[type="reset"]:hover
+{
+    background: #BBCDB3;
+    color: #B95041;
+}
+
+/* -- Form Validation --*/
+.adventureform input:required:invalid {
+        background-color: #DAE7EF;
+    color:#8a97a0;
+}
+
+.adventureform input:required:focus:invalid{
+  background-color: #FA8072;
+  color: white;
+}
+
+
+.adventureform input:required:valid {
+  background-color: #90EE90;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
